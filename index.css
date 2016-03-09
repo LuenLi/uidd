@@ -5,6 +5,7 @@ p{
 }
 
 .vertical-container {
+  	flex-direction:column; 
 	display:-webkit-flex;
 	display:	flex;
 	-webkit-align-items:center;
