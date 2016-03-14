@@ -1,0 +1,57 @@
+body{
+	margin-top: 5%;
+	background-image: url("image/background.jpg");
+}
+
+.vertical-container {
+  	height: 20%;
+  	flex-direction:column; 
+	display:-webkit-flex;
+	display:	flex;
+	-webkit-align-items:center;
+		align-items:center;
+	-webkit-justify-content:center;
+		justify-content:center;
+}
+.main {
+	background-color: #911C22;
+	flex-direction:column; 
+	display:-webkit-flex;
+	display:	flex;
+	justify-content: space-around;
+	height: 515px;
+	width: 600px;
+}
+
+.box{ 
+	display:-webkit-flex;
+	display:	flex;
+	height: 515px;
+	width: 600px;
+}
+
+.one{
+	left:-42%;
+	top:5%;
+	position:relative;
+}
+.two{
+	left:-2%;
+	top:23%;
+	position:relative;
+}
+.three{
+	left:18%;
+	top:23%;
+	position:relative;
+}
+.four{
+	left:-7%;
+	top:50%;
+	position:relative;
+}
+.five{
+	left:24%;
+	top:50%;
+	position:relative;
+}

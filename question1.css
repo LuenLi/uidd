@@ -1,0 +1,70 @@
+body{
+	margin-top: 5%;
+	background-image: url("image/background.jpg");
+}
+
+p{
+	font-family: "Microsoft JhengHe";
+	font-size: 20px;
+	color: #33CCFF;
+}
+
+.vertical-container {
+  	height: 20%;
+  	flex-direction:column; 
+	display:-webkit-flex;
+	display:	flex;
+	-webkit-align-items:center;
+		align-items:center;
+	-webkit-justify-content:center;
+		justify-content:center;
+}
+
+.main {
+	background-color: #911C22;
+	flex-direction:column; 
+	display:-webkit-flex;
+	display:	flex;
+	justify-content: space-around;
+	height: 515px;
+	width: 600px;
+}
+
+.main_row{
+	-webkit-align-items:center;
+		align-items:center;
+	-webkit-justify-content:center;
+		justify-content:center;
+	flex-direction:row; 
+	display:-webkit-flex;
+	display:	flex;
+}
+.button {
+    background-color: #FFFFFF;
+    border: none;
+    color: black;
+    padding: 12px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+	border-radius: 12px;
+    margin-left: 30px;
+	margin-bottom: 25px;
+    cursor: pointer;
+}
+.button1 {
+    background-color: #FFFFFF;
+    border: none;
+    color: black;
+    padding: 10px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+	border-radius: 12px;
+    margin-left: 8%;
+	margin-right: 8%;
+	margin-bottom: 25px;
+    cursor: pointer;
+}
