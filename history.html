@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>History</title>
+		<link href = "question1.css" rel = "stylesheet">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script>
+		function move_on1()
+		{
+			document.getElementById("myImg").src="image/h1.jpg";
+		}
+		function move_on2()
+		{
+			document.getElementById("myImg").src="image/h2.jpg";
+		}
+		function move_on3()
+		{
+			document.getElementById("myImg").src="image/h3.jpg";
+		}
+		function move_away()
+		{
+			document.getElementById("myImg").src="image/h.jpg";
+		}
+	</script>
+	</head>
+	<body>
+		<div class = "vertical-container">
+			<div class = "main">
+				<a href = "index.html"><img src ="image/return.jpg" width="100" style="margin-left:15%;margin-top:2%"></a>
+				<img id="myImg" src ="image/h.jpg" width="350" height="233" style="margin-left:15%">
+				<button onmouseover="move_on1()" onmouseout="move_away()" class="button1" style = "margin-top:5%">街景(從運河看過去)</button>
+				<button onmouseover="move_on2()" onmouseout="move_away()" class="button1" >內部(魚肉市場)</button>
+				<button onmouseover="move_on3()" onmouseout="move_away()" class="button1" >今昔對比</button>
+			</div>
+		</div>
+	</body>
+
+</html>
